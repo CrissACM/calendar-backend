@@ -35,6 +35,5 @@ router.post(
 )
 
 router.get('/renew', validarJWT, revalidarToken)
-//hola
 
 module.exports = router
