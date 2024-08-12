@@ -26,5 +26,5 @@ function validarJWT(req, res = response, next) {
 
 	next()
 }
-// hola
+
 module.exports = { validarJWT }
