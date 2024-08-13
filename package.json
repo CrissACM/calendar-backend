@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "node --watch --env-file .env index.js",
+		"dev": "node --watch --env-file .env api/index.js",
 		"start": "node --env-file .env api/index.js"
 	},
 	"keywords": [],
